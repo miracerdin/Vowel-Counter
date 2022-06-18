@@ -21,8 +21,11 @@ function mirac() {
     resultDiv.style.display = "block";
     resultDiv.innerHTML = `${input.value} has ${sonuc.length} vowel `;
     input.value = "";
+  } else {
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = `${input.value} hasn't any vowel `;
   }
 
   return sonuc.length;
 }
-console.log(mirac(input.value));
+// console.log(mirac(input.value));
